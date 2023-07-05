@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/SkipList.h
+fstream
+-
+iostream
+-
+mutex
+-
+random
+-
+stdlib.h
+-
+string
+-
+vector
+-
+
+/home/zyk/Study/mySkipList-dataset-cpp/test/functional_test.cpp
+SkipList.h
+/home/zyk/Study/mySkipList-dataset-cpp/test/SkipList.h
+iostream
+-
+
